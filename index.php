@@ -37,8 +37,8 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script >
     $("#btn_no").hover(function () {
-    $("#botonQueSeMueve").css("top", `${Math.random() * 710}px`);
-    $("#botonQueSeMueve").css("left", `${Math.random() * 1000}px`);
+    $("#btn_no").css("top", `${Math.random() * 710}px`);
+    $("#btn_no").css("left", `${Math.random() * 1000}px`);
     });
 </script>
 </html>
